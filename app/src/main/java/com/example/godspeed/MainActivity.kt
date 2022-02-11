@@ -41,4 +41,5 @@ class MainActivity : AppCompatActivity() {
             transaction.commit()
         }
     }
+    //aumentar o icone de home e colocar no centro, estilo app MyVodafone
 }
