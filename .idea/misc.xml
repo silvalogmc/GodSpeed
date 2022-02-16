@@ -16,8 +16,10 @@
         <entry key="..\:/GodSpeed/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/drawable/action_bar_bg.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/alexandre.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_car.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1621376811594203" />
-        <entry key="app/src/main/res/layout/fragment_team.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_alexandre.xml" value="0.1621376811594203" />
+        <entry key="app/src/main/res/layout/fragment_team.xml" value="0.17036132812500002" />
       </map>
     </option>
   </component>
