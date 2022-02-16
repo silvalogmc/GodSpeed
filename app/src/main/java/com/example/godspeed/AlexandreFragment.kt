@@ -6,11 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import com.example.godspeed.fragments.*
-import androidx.fragment.app.FragmentActivity
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
@@ -26,9 +23,6 @@ class AlexandreFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val btnAlexandre: ImageButton = R.id.btn_alexandre
-
-
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
@@ -61,6 +55,7 @@ class AlexandreFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+
     }
 
 }
