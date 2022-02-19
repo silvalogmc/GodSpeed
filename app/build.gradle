@@ -4,6 +4,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\Alexandre Silva\\Desktop\\android-key')
+            keyPassword 'Tintapreta04'
+            storePassword 'Tintapreta04'
+            keyAlias 'key0'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 

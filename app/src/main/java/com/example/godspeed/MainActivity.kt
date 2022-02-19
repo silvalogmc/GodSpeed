@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 import android.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import com.example.godspeed.fragments.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -16,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     private val teamFragment = TeamFragment()
     private val carFragment = CarFragment()
     private val resultsFragment = ResultsFragment()
-    private val alexandreFragment = AlexandreFragment()
 
 
     @SuppressLint("UseCompatLoadingForDrawables")
@@ -35,10 +33,7 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-        val btnAlexandre = findViewById<ImageButton>(R.id.btn_alexandre)
-        btnAlexandre.setOnClickListener {
-            replaceFragment(alexandreFragment)
-        }
+
 
 
         val actionBar: ActionBar? = actionBar
@@ -47,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun replaceFragment(fragment: Fragment){
+    fun replaceFragment(fragment: Fragment){
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, fragment)
         transaction.commit()
