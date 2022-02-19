@@ -1,5 +1,6 @@
 package com.example.godspeed.fragments
 
+import android.media.Image
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -24,6 +25,12 @@ class TeamFragment : Fragment(), View.OnClickListener {
     private var param1: String? = null
     private var param2: String? = null
     private val alexandreFragment = AlexandreFragment()
+    private val barbaraFragment = BarbaraFragment()
+    private val goncaloFragment = GoncaloFragment()
+    private val pedroFragment = PedroFragment()
+    private val ricardoFragment = RicardoFragment()
+    private val rafaelFragment = RafaelFragment()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,8 +46,13 @@ class TeamFragment : Fragment(), View.OnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         val view: View = inflater!!.inflate(R.layout.fragment_team, container, false)
-        val btn: ImageButton = view.findViewById(R.id.btn_alexandre)
-        btn.setOnClickListener(this)
+        val alexandreBtn: ImageButton = view.findViewById(R.id.btn_alexandre)
+        val barbaraBtn: ImageButton = view.findViewById(R.id.btn_barbara)
+        val goncaloBtn: ImageButton = view.findViewById(R.id.btn_goncalo)
+        val pedroBtn: ImageButton = view.findViewById(R.id.btn_pedro)
+        val rafaelBtn: ImageButton = view.findViewById(R.id.btn_rafael)
+        val ricardoBtn: ImageButton = view.findViewById(R.id.btn_ricardo)
+        alexandreBtn.setOnClickListener(this)
         return view
     }
 
@@ -52,7 +64,7 @@ class TeamFragment : Fragment(), View.OnClickListener {
         }
     }
 
-    fun replaceFragment(fragment: Fragment){
+    private fun replaceFragment(fragment: Fragment){
         val transaction = fragmentManager?.beginTransaction()
         transaction?.replace(R.id.fragment_container, fragment)
         transaction?.commit()

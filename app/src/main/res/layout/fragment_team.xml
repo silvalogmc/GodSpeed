@@ -27,7 +27,7 @@
             android:src="@drawable/alexandre" />
 
         <ImageButton
-            android:id="@+id/barbara"
+            android:id="@+id/btn_barbara"
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_rowWeight="1"
@@ -38,7 +38,7 @@
             android:src="@drawable/barbara"/>
 
         <ImageButton
-            android:id="@+id/goncalo"
+            android:id="@+id/btn_goncalo"
             android:layout_width="10dp"
             android:scaleType="fitXY"
             android:layout_height="10dp"
@@ -49,7 +49,7 @@
             android:src="@drawable/goncalo"/>
 
         <ImageButton
-            android:id="@+id/pedro"
+            android:id="@+id/btn_pedro"
             android:scaleType="fitXY"
             android:layout_width="10dp"
             android:layout_height="10dp"
@@ -60,7 +60,7 @@
             android:src="@drawable/pedro"/>
 
         <ImageButton
-            android:id="@+id/rafael"
+            android:id="@+id/btn_rafael"
             android:scaleType="fitXY"
             android:layout_width="10dp"
             android:layout_height="10dp"
@@ -71,7 +71,7 @@
             android:src="@drawable/rafael"/>
 
         <ImageButton
-            android:id="@+id/ricardo"
+            android:id="@+id/btn_ricardo"
             android:scaleType="fitXY"
             android:layout_width="10dp"
             android:layout_height="10dp"
