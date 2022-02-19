@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.GodSpeed" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="Theme.GodSpeed" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
         <!-- Primary brand color. -->
         <item name="colorPrimary">#015952</item>
         <item name="colorPrimaryVariant">#014E48</item>
@@ -12,5 +13,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#015952</item>
     </style>
 </resources>
