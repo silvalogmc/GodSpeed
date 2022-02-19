@@ -53,14 +53,22 @@ class TeamFragment : Fragment(), View.OnClickListener {
         val rafaelBtn: ImageButton = view.findViewById(R.id.btn_rafael)
         val ricardoBtn: ImageButton = view.findViewById(R.id.btn_ricardo)
         alexandreBtn.setOnClickListener(this)
+        barbaraBtn.setOnClickListener(this)
+        goncaloBtn.setOnClickListener(this)
+        pedroBtn.setOnClickListener(this)
+        rafaelBtn.setOnClickListener(this)
+        ricardoBtn.setOnClickListener(this)
         return view
     }
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.btn_alexandre -> {
-                replaceFragment(alexandreFragment)
-            }
+            R.id.btn_alexandre -> { replaceFragment(alexandreFragment) }
+            R.id.btn_barbara -> { replaceFragment(barbaraFragment) }
+            R.id.btn_goncalo -> { replaceFragment(goncaloFragment) }
+            R.id.btn_pedro -> { replaceFragment(pedroFragment) }
+            R.id.btn_rafael -> { replaceFragment(rafaelFragment) }
+            R.id.btn_ricardo -> { replaceFragment(ricardoFragment) }
         }
     }
 
