@@ -6,7 +6,7 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('C:\\Users\\Alexandre Silva\\Desktop\\android-key')
+            storeFile file('/Users/alexandresilva/android-key')
             keyPassword 'Tintapreta04'
             storePassword 'Tintapreta04'
             keyAlias 'key0'

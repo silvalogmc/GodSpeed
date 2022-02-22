@@ -3,5 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="team_manager">Team Manager</string>
-
+    <string name="title_alexandre">Alexandre Silva</string>
+    <string name="subtitle_alexandre">Team Manager</string>
+    <string name="text_alexandre">Responsible for leading the team, ensuring that the lead car and replacement car are ready for the finals. The team manager works closely with all team members, offering assistance when needed. He provides help when necessary in all phases of the project and coordinates work between every member.</string>
 </resources>

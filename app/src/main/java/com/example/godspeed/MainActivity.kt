@@ -48,4 +48,6 @@ class MainActivity : AppCompatActivity() {
         transaction.commit()
     }
     //ToDo: Aumentar o icone de home e colocar no centro, estilo app MyVodafone
+    //ToDo: App fecha quando utilizado o botao Voltar
+    //ToDo: Mudar fundo da aplicacao
 }
