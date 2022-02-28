@@ -1,11 +1,13 @@
 package com.example.godspeed.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.godspeed.R
 
 
@@ -18,7 +20,7 @@ private const val ARG_PARAM2 = "param2"
  * Use the [AlexandreFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class AlexandreFragment : Fragment() {
+class AlexandreFragment : Fragment(), View.OnClickListener {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,11 +37,25 @@ class AlexandreFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_alexandre, container, false)
+        val view: View = inflater!!.inflate(R.layout.fragment_alexandre, container, false)
+        val instagramButton: ConstraintLayout = view.findViewById(R.id.instagram_layout)
+        instagramButton.setOnClickListener(this)
+        return view
     }
 
-    /*companion object {
+    override fun onClick(v: View?) {
+        when (v?.id) {
+            R.id.instagram_layout -> { openInstagram() }
+        }
+    }
+
+    private fun openInstagram(){
+        val url = "https://www.instagram.com/p/CZkp5FNNHG7/"
+        val i = Intent(Intent.ACTION_VIEW)
+        i.data = Uri.parse(url)
+    }
+
+    companion object {
         /**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
@@ -58,6 +74,6 @@ class AlexandreFragment : Fragment() {
                 }
             }
 
-    }*/
+    }
 
 }

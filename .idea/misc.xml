@@ -16,10 +16,12 @@
         <entry key="..\:/GodSpeed/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
         <entry key="app/src/main/res/drawable/action_bar_bg.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/alexandre.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/ic_baseline_bookmarks_24.xml" value="0.28" />
         <entry key="app/src/main/res/drawable/ic_car.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/iconmonstr_instagram_11.xml" value="0.28" />
         <entry key="app/src/main/res/font/poppins.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1621376811594203" />
-        <entry key="app/src/main/res/layout/fragment_alexandre.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_alexandre.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_barbara.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/fragment_goncalo.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1621376811594203" />
