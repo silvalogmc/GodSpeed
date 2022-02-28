@@ -5,5 +5,20 @@
     <string name="team_manager">Team Manager</string>
     <string name="title_alexandre">Alexandre Silva</string>
     <string name="subtitle_alexandre">Team Manager</string>
+    <string name="title_barbara">Bárbara Galante</string>
+    <string name="subtitle_barbara">Marketing Manager</string>
+    <string name="title_goncalo">Gonçalo Bigaíl</string>
+    <string name="subtitle_goncalo">Designer Engineer</string>
+    <string name="title_pedro">Pedro Ramos</string>
+    <string name="subtitle_pedro">Manufacturing Engineer</string>
+    <string name="title_rafael">Rafael Campos</string>
+    <string name="subtitle_rafael">Resources Manager</string>
+    <string name="title_ricardo">Ricardo Almeida</string>
+    <string name="subtitle_ricardo">Innovation Engineer</string>
+    <string name="text_ricardo">Ricardo is responsible for the most innovative aspect of the project. To be a team of excellence, we need the best solutions for the challenges that arise. Innovation is fundamental in evolution, so Ricardo\'s mission is to think outside the box, helping to take the project to the next level with perfectionism combined with creativity.</string>
+    <string name="text_rafael">Rafael is our resources manager, responsible for communication with sponsors, managing time, funds and materials for the cars´ production.</string>
+    <string name="text_pedro">Pedro is the engineer responsible for building our car. He ensures the efficient use of the best materials available and, in collaboration with Gonçalo, explores all the potential for our car to have maximum speed.</string>
+    <string name="text_goncalo">Gonçalo is responsible for the design and aerodynamic performance of the car. He works closely with the manufacturing engineer to ensure that their ideas are doable and we manage to reach our final goal: build the fastest car possible.</string>
+    <string name="text_barbara">Barbara is our marketing director. She is responsible for the image and communication of GodSpeed, managing from the design of our t-shirts to our social media. She will be responsible for publicizing all our sponsors, who are an essential part for this project´s viability.</string>
     <string name="text_alexandre">Responsible for leading the team, ensuring that the lead car and replacement car are ready for the finals. The team manager works closely with all team members, offering assistance when needed. He provides help when necessary in all phases of the project and coordinates work between every member.</string>
 </resources>

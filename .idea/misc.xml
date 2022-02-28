@@ -20,7 +20,12 @@
         <entry key="app/src/main/res/font/poppins.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1621376811594203" />
         <entry key="app/src/main/res/layout/fragment_alexandre.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_barbara.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/fragment_goncalo.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1621376811594203" />
+        <entry key="app/src/main/res/layout/fragment_pedro.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/fragment_rafael.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/fragment_ricardo.xml" value="0.24739583333333334" />
         <entry key="app/src/main/res/layout/fragment_team.xml" value="0.17036132812500002" />
       </map>
     </option>
